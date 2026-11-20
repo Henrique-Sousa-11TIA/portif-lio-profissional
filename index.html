@@ -120,14 +120,59 @@
 
     <section class="content-section projects-section" id="projetos" aria-labelledby="projects-title">
       <div class="section-content">
-        <p class="section-eyebrow">EM DESENVOLVIMENTO</p>
-        <h2 id="projects-title">Projetos</h2>
-        <div class="project-placeholder">
-          <span class="placeholder-mark" aria-hidden="true">+</span>
-          <div>
-            <h3>Novos trabalhos em breve</h3>
-            <p>Projetos</p>
-          </div>
+        <p class="section-eyebrow">PROJETOS</p>
+        <h2 id="projects-title">Projetos em destaque</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <img class="project-preview" src="assets/site-cafeteria-preview.png" alt="Prévia do site de cafeteria, com destaque para a página inicial e uma xícara de café">
+            <div class="project-card-content">
+              <h3>Site de Cafeteria</h3>
+              <p>Uma página para apresentar a cafeteria, seus cafés e o ambiente acolhedor do espaço.</p>
+              <a class="project-link" href="https://site-cafeteria-virid.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/loja-grife-preview.png" alt="Página inicial da loja de roupas MAISON NOIR, com camisa premium em destaque">
+            <div class="project-card-content">
+              <h3>Loja de Roupas de Grife</h3>
+              <p>Loja virtual de moda premium com coleção de camisas e detalhes das peças.</p>
+              <a class="project-link" href="https://lojaroupadegrife.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/calculadora-gorjeta-preview.png" alt="Interface da calculadora de gorjetas Splitter">
+            <div class="project-card-content">
+              <h3>Calculadora de Gorjetas</h3>
+              <p>Calculadora para dividir a conta e calcular o valor da gorjeta por pessoa.</p>
+              <a class="project-link" href="https://calculadora-gorjeta-henriquesousa.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/calculadora-dieta-preview.png" alt="Página inicial da calculadora de dieta Metra">
+            <div class="project-card-content">
+              <h3>Calculadora de Dieta Metra</h3>
+              <p>Calculadora que monta um plano alimentar com base nos dados e objetivos informados.</p>
+              <a class="project-link" href="https://dietacalculadametra.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/quicklist-preview.png" alt="Interface do QuickList para adicionar itens à lista de compras">
+            <div class="project-card-content">
+              <h3>QuickList - Lista de Compras</h3>
+              <p>Aplicação simples para adicionar e organizar itens de uma lista de compras.</p>
+              <a class="project-link" href="https://quicklisthenriquesousa02ma.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -136,13 +181,115 @@
       <div class="section-content">
         <p class="section-eyebrow">TRABALHO DE CONCLUSÃO DE CURSO</p>
         <h2 id="tcc-title">TCC</h2>
-        <p class="section-description">
-          Em breve, este espaço vai reunir fotos e vídeos do meu trabalho,
-          apresentados em um carrossel lateral com uma legenda para cada mídia.
+        <h3 class="tcc-prototype-title">Óculos para discalculia</h3>
+        <figure class="tcc-prototype">
+          <img
+            src="assets/tcc-prototipo.png"
+            alt="Protótipo do TCC: óculos com câmera conectados a uma placa Raspberry Pi"
+            width="1365"
+            height="768"
+            loading="lazy"
+            decoding="async">
+          <figcaption class="tcc-prototype-caption">
+            <div>
+              <h3>Protótipo do meu TCC</h3>
+              <p>Este é o protótipo desenvolvido para o meu Trabalho de Conclusão de Curso: óculos com câmera conectados a uma placa Raspberry Pi.</p>
+            </div>
+          </figcaption>
+        </figure>
+        <p class="section-description tcc-prototype-description">
+          Um pouco dos bastidores e momentos do desenvolvimento do meu Trabalho de Conclusão de Curso.
         </p>
-        <div class="tcc-placeholder" aria-label="Espaço reservado para as fotos e os vídeos do TCC">
-          <span class="placeholder-mark" aria-hidden="true">+</span>
-          <p>Fotos e vídeos em breve</p>
+        <div class="tcc-carousel" data-tcc-carousel role="region" aria-roledescription="carrossel" aria-label="Fotos e vídeo do desenvolvimento do TCC" tabindex="0">
+          <div class="tcc-carousel-viewport">
+            <div class="tcc-carousel-track">
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 1 de 8">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-quadro-exemplo.png" alt="Desenho de um personagem e símbolos matemáticos em um quadro branco">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Um dos registros da criação do projeto: ideias e desenhos no quadro para representar conceitos ligados à discalculia de forma visual e criativa.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 2 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-equipe-exemplo.png" alt="Integrantes do grupo reunidos em frente ao quadro com o desenho do projeto">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Parte da equipe reunida durante o desenvolvimento do TCC — um momento de colaboração e dedicação ao projeto.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 3 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-premiacao-grupo.png" alt="Henrique e seu grupo no palco ao receber a premiação pelo TCC">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Eu e meu grupo no palco recebendo a premiação pelo projeto de TCC — reconhecimento pelo trabalho e dedicação de todos.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 4 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-palco-palestra.png" alt="Palco durante a palestra de apresentação do projeto de TCC">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Palco durante a palestra de apresentação do projeto, com o telão e os prêmios em destaque.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 5 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-apresentacao-sipic.png" alt="Henrique e seu grupo apresentando o projeto de TCC no SIPIC, junto ao estande">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Apresentação do projeto de TCC no SIPIC: um momento para compartilhar a solução desenvolvida com os visitantes do evento.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Vídeo 6 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <video controls preload="none" playsinline aria-label="Vídeo do local de apresentação do projeto de TCC">
+                    <source src="assets/tcc-local-apresentacao.mp4" type="video/mp4">
+                    Seu navegador não oferece suporte à reprodução deste vídeo.
+                  </video>
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Um registro em vídeo do espaço onde aconteceu a apresentação do projeto de TCC.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 7 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-mentoria-palestra.png" alt="Palestrante no palco durante a mentoria da palestra">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Momento de mentoria durante a palestra, com orientações e troca de experiências no palco.</p>
+                </figcaption>
+              </figure>
+              <figure class="tcc-slide" role="group" aria-roledescription="slide" aria-label="Foto 8 de 8" aria-hidden="true">
+                <div class="tcc-slide-image">
+                  <img src="assets/tcc-turma-premiada.png" alt="Estudantes e equipe reunidos no palco após conquistarem colocações no pódio do TCC">
+                </div>
+                <figcaption class="tcc-slide-caption">
+                  <p>Foto com os estudantes da sala que conquistaram lugar no pódio do TCC, celebrando as conquistas da turma.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="tcc-carousel-controls">
+            <button class="tcc-carousel-arrow" type="button" data-carousel-direction="-1" aria-label="Slide anterior">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+            </button>
+            <div class="tcc-carousel-pagination" role="group" aria-label="Selecionar foto ou vídeo">
+              <button type="button" class="tcc-carousel-dot is-active" data-slide-index="0" aria-label="Mostrar slide 1" aria-current="true"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="1" aria-label="Mostrar slide 2" aria-current="false"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="2" aria-label="Mostrar slide 3" aria-current="false"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="3" aria-label="Mostrar slide 4" aria-current="false"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="4" aria-label="Mostrar slide 5" aria-current="false"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="5" aria-label="Mostrar slide 6" aria-current="false"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="6" aria-label="Mostrar slide 7" aria-current="false"></button>
+              <button type="button" class="tcc-carousel-dot" data-slide-index="7" aria-label="Mostrar slide 8" aria-current="false"></button>
+            </div>
+            <button class="tcc-carousel-arrow" type="button" data-carousel-direction="1" aria-label="Próximo slide">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -152,9 +299,37 @@
         <p class="section-eyebrow">VAMOS CONVERSAR</p>
         <h2 id="contact-title">Contato</h2>
         <p class="section-description">
-          Estou em busca da minha primeira oportunidade na área. Em breve,
-          adicionarei aqui meus canais de contato.
+          Estou em busca da minha primeira oportunidade na área.
         </p>
+        <ul class="contact-socials" aria-label="Redes sociais e canais de contato">
+          <li class="contact-social-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.5Z"></path>
+              <path d="M9 8.5c.3-.5.7-.4.9-.1l.8 1.3c.2.3.1.5-.1.7l-.5.5c.6 1.1 1.4 1.9 2.6 2.5l.5-.5c.2-.2.5-.3.8-.1l1.2.7c.3.2.4.4.2.7-.3.6-.8.9-1.5.9-2.6-.2-5.7-3-5.9-5.7-.1-.4.3-.7 1-1Z"></path>
+            </svg>
+            <span>WhatsApp</span>
+          </li>
+          <li class="contact-social-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.5" cy="6.5" r=".8"></circle>
+            </svg>
+            <span>Instagram</span>
+          </li>
+          <li class="contact-social-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 9h3v10H5zM6.5 5.5v.1M12 19v-10h3v1.5c.6-1.2 3.5-1.5 4 1.2V19h-3v-6c0-1.5-1-2-2-1.4-.7.4-1 1-1 1.7V19z"></path>
+            </svg>
+            <span>LinkedIn</span>
+          </li>
+          <li class="contact-social-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 8-4 4 4 4m6-8 4 4-4 4m-2-10-2 12"></path>
+            </svg>
+            <span>GitHub</span>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
@@ -162,5 +337,6 @@
   <script src="js/theme-toggle.js" defer></script>
   <script src="js/navigation.js" defer></script>
   <script src="js/timeline.js" defer></script>
+  <script src="js/tcc-carousel.js" defer></script>
 </body>
 </html>
