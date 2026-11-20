@@ -985,6 +985,19 @@ summary:focus-visible {
   background: var(--panel);
   color: var(--text);
   font-weight: 700;
+  text-decoration: none;
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+
+.contact-social-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 28px rgba(var(--accent-rgb), .14);
+}
+
+.contact-social-item:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 4px;
 }
 
 .contact-social-item svg {
